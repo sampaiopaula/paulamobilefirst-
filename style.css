@@ -1,0 +1,60 @@
+.circulo{background-color: darkgray;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+.ali{display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+   
+    .fontnome{font-family:Fascinate Inline;}
+    .fontnome2{font-family:Inconsolata;}
+    .fontmargim{  display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+   
+    #box1{background-color: darkgrey;
+        width: 230px;
+        height: 220px;
+        border-radius: 5%;
+        margin: 5px 5px 5px 5px ; 
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+      }
+
+    #box2{background-color: darkgrey;
+        width: 230px;
+        height: 220px;
+        border-radius: 5%;
+        margin: 5px 5px 5px 5px ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #box3{background-color: darkgrey;
+        width: 230px;
+        height: 220px;
+        border-radius: 5%;
+        margin: 5px 5px 5px 5px ; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+     .logo{height: 120%;
+        height: 100px;
+     }
