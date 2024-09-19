@@ -1,4 +1,8 @@
-.circulo{background-color: darkgray;
+#fundo{background-color: antiquewhite;}
+.circulo{background: url(https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg);
+    background-position: 50% 20%;
+ background-size: cover;
+ background-repeat: no-repeat;
     width: 230px;
     height: 230px;
     border-radius: 50%;
@@ -6,10 +10,10 @@
 
 }
 .ali{display: flex;
-
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center; 
+}
 
    
     .fontnome{font-family:Fascinate Inline;}
@@ -22,39 +26,188 @@
 
     
    
-    #box1{background-color: darkgrey;
+
+    #box1{background-color: rgb(7, 210, 233);
         width: 230px;
         height: 220px;
         border-radius: 5%;
         margin: 5px 5px 5px 5px ; 
        display: flex;
-       flex-direction: column;
        justify-content: center;
-       align-items: center;
+      
+       position: relative;
+       overflow: hidden;
+    
       }
 
-    #box2{background-color: darkgrey;
+      .cima1{
+        height: 70%;}
+
+            .baixo1{ background-color: rgb(23, 139, 155); 
+                height: 30%; 
+                position: absolute;
+                bottom: 0;
+                width: 100%; display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+    #box2{background-color: rgb(255, 137, 137);
         width: 230px;
         height: 220px;
         border-radius: 5%;
         margin: 5px 5px 5px 5px ;
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
+         position: relative;
+        overflow: hidden;
     }
+    .cima2{
+        height: 70%;}
 
-    #box3{background-color: darkgrey;
+            .baixo2{ background-color: rgb(88, 3, 3); 
+                height: 30%; 
+                position: absolute;
+                bottom: 0;
+                width: 100%; display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+    #box3{background-color: rgb(56, 255, 133);
         width: 230px;
         height: 220px;
         border-radius: 5%;
         margin: 5px 5px 5px 5px ; 
         display: flex;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+    
+    }
+    .cima3{
+        height: 70%;}
+
+            .baixo3{ background-color: rgb(0, 128, 17); 
+                height: 30%; 
+                position: absolute;
+                bottom: 0;
+                width: 100%; display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+     .logo{height: 120%;
+        height: 85px;
+       margin: 40px; 
+     }
+
+     @media (min-width:900px){
+       #fundo{background-color: black;}
+       .fontnome{font-family:Playfair Display; 
+    color: white;}
+       .fontnome2{font-family:Inconsolata; color: white;}
+
+       .circulo{background: url(https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg);
+        background-position: 50% 20%;
+     background-size: cover;
+     background-repeat: no-repeat;
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+        margin: 100px 150px 200px 100px ;
+    }
+    
+    .fontmargim{  display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    
     }
-     .logo{height: 120%;
-        height: 100px;
+        
+    .ali{display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; }
+
+
+        #box1{background-color: rgb(7, 210, 233);
+            width: 330px;
+            height: 320px;
+            border-radius: 5%;
+            margin: 10px 10px 10px 10px ; 
+           display: flex;
+           justify-content: center;
+          
+           position: relative;
+           overflow: hidden;
+        
+          }
+    
+          .cima1{
+            height: 70%;}
+    
+                .baixo1{ background-color: rgb(23, 139, 155); 
+                    height: 30%; 
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%; display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+    
+        #box2{background-color: rgb(255, 137, 137);
+            width: 330px;
+            height: 320px;
+            border-radius: 5%;
+            margin: 10px 10px 10px 10px ;
+            display: flex;
+            justify-content: center;
+             position: relative;
+            overflow: hidden;
+        }
+        .cima2{
+            height: 70%;}
+    
+                .baixo2{ background-color: rgb(88, 3, 3); 
+                    height: 30%; 
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%; display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+    
+        #box3{background-color: rgb(56, 255, 133);
+            width: 330px;
+            height: 320px;
+            border-radius: 5%;
+            margin: 10px 10px 10px 10px ; 
+            display: flex;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        
+        }
+        .cima3{
+            height: 70%;}
+    
+                .baixo3{ background-color: rgb(0, 128, 17); 
+                    height: 30%; 
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%; display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .logo{height: 120%;
+                    height: 85px;
+                   margin: 80px; 
+                 }
+              
      }
+     
