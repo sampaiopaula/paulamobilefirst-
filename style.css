@@ -1,4 +1,4 @@
-#fundo{background-color: antiquewhite;}
+#fundo{background-color: rgb(236, 230, 223);}
 .circulo{background: url(https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg);
     background-position: 50% 20%;
  background-size: cover;
@@ -25,9 +25,11 @@
     }
 
     
-   
 
-    #box1{background-color: rgb(7, 210, 233);
+    #box1{background: url(https://i0.wp.com/vanessatuleski.com.br/wp-content/uploads/2020/06/Netuno-planeta.png?fit=1920%2C1080&ssl=1);
+        background-position: 50% 30%;
+ background-size: cover;
+ background-repeat: no-repeat;
         width: 230px;
         height: 220px;
         border-radius: 5%;
@@ -43,7 +45,7 @@
       .cima1{
         height: 70%;}
 
-            .baixo1{ background-color: rgb(23, 139, 155); 
+            .baixo1{ background-color: rgb(18, 109, 121); 
                 height: 30%; 
                 position: absolute;
                 bottom: 0;
@@ -53,7 +55,10 @@
                 align-items: center;
             }
 
-    #box2{background-color: rgb(255, 137, 137);
+    #box2{background: url(https://s1.static.brasilescola.uol.com.br/be/2021/11/planeta-marte.jpg);
+        background-position: 50% 30%;
+ background-size: cover;
+ background-repeat: no-repeat;
         width: 230px;
         height: 220px;
         border-radius: 5%;
@@ -76,7 +81,10 @@
                 align-items: center;
             }
 
-    #box3{background-color: rgb(56, 255, 133);
+    #box3{background: url(https://socientifica.com.br/wp-content/uploads/2023/09/planeta-do-tamanho-da-terra-no-sistema-solar.jpeg);
+        background-position: 50% 30%;
+ background-size: cover;
+ background-repeat: no-repeat;
         width: 230px;
         height: 220px;
         border-radius: 5%;
@@ -104,6 +112,9 @@
        margin: 40px; 
      }
 
+     .fontt{font-family: 'Courier New', Courier, monospace;
+    color: white;}
+
      @media (min-width:900px){
        #fundo{background-color: black;}
        .fontnome{font-family:Playfair Display; 
@@ -114,10 +125,11 @@
         background-position: 50% 20%;
      background-size: cover;
      background-repeat: no-repeat;
-        width: 230px;
-        height: 230px;
+        width: 330px;
+        height: 330px;
         border-radius: 50%;
-        margin: 100px 150px 200px 100px ;
+        margin: 50px 100px 100px 100px ;
+     
     }
     
     .fontmargim{  display: flex;
@@ -126,13 +138,22 @@
         align-items: center;
     }
         
-    .ali{display: flex;
+    .ali{
+        display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center; }
+    .ali2{
+        padding: 100px 500px 50px 20px ;
+    }
+
+        
 
 
-        #box1{background-color: rgb(7, 210, 233);
+        #box1{background: url(https://i0.wp.com/vanessatuleski.com.br/wp-content/uploads/2020/06/Netuno-planeta.png?fit=1920%2C1080&ssl=1);
+            background-position: 50% 30%;
+     background-size: cover;
+     background-repeat: no-repeat;
             width: 330px;
             height: 320px;
             border-radius: 5%;
@@ -158,7 +179,10 @@
                     align-items: center;
                 }
     
-        #box2{background-color: rgb(255, 137, 137);
+        #box2{background: url(https://s1.static.brasilescola.uol.com.br/be/2021/11/planeta-marte.jpg);
+            background-position: 50% 30%;
+     background-size: cover;
+     background-repeat: no-repeat;;
             width: 330px;
             height: 320px;
             border-radius: 5%;
@@ -181,7 +205,10 @@
                     align-items: center;
                 }
     
-        #box3{background-color: rgb(56, 255, 133);
+        #box3{background: url(https://socientifica.com.br/wp-content/uploads/2023/09/planeta-do-tamanho-da-terra-no-sistema-solar.jpeg);
+            background-position: 50% 30%;
+     background-size: cover;
+     background-repeat: no-repeat;
             width: 330px;
             height: 320px;
             border-radius: 5%;
